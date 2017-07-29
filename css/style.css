@@ -1,0 +1,103 @@
+/* Style Sheet */
+
+
+body {
+    font-family: 'Playfair Display', serif;
+}
+
+.home-content {
+    height: 80vh; 
+	display: flex; 
+	align-items: center; 
+	justify-content: center;
+}
+
+#my-life {
+    margin: auto;
+    color: black;
+    height: 84px;
+	width: 180px;
+	border-radius: 100px;
+	background-color: #FFFFFF;
+    padding-top: 10px;
+    font-size: 2.5em;	
+    font-weight: 500;	
+    vertical-align: middle;
+    text-align: center;
+}
+
+
+.time-zone {
+    font-size: 5em;
+    color: white;
+    margin: auto;
+    text-align: center;
+}
+
+
+
+.home-link {
+    color: white;
+    }
+
+    /* visited link */
+.home-link:visited {
+    color: white;
+    }
+
+    /* mouse over link */
+.home-link:hover {
+    color: black;
+    }
+
+    /* selected link */
+.home-link:active {
+    color: lightgray;
+    }
+
+
+/* DIVIDER LINE */
+.vline {
+    position:fixed;
+    top:0;
+    left:50%;
+    bottom:0; margin:0;
+    border:none;
+    border-right:solid 1px white;
+    z-index:10;
+}
+
+.container {
+    background-image: url('img/az-desert.jpg');
+    background-size: cover;
+}
+
+
+/* FOOTER */
+.flex-container {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+row {
+  width: 100%;
+}
+.flex-item {
+    font-family: sans-serif;
+      margin: 30px;
+      width: 200px;
+      height: 150px;
+      line-height: 150px;
+      color: white;
+      font-weight: 100;
+      font-size: 1em;
+      text-align: center;
+}
+
+.passion-bg {
+    background-image: url(img/passion-bg.png);
+    background-size: cover;
+}
