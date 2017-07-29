@@ -1,10 +1,6 @@
 /* Style Sheet */
 
 
-body {
-    font-family: 'Playfair Display', serif;
-}
-
 .home-content {
     height: 80vh; 
 	display: flex; 
@@ -13,6 +9,7 @@ body {
 }
 
 #my-life {
+    font-family: 'Playfair Display', serif;
     margin: auto;
     color: black;
     height: 84px;
@@ -28,6 +25,7 @@ body {
 
 
 .time-zone {
+    font-family: 'Playfair Display', serif;
     font-size: 5em;
     color: white;
     margin: auto;
@@ -37,6 +35,7 @@ body {
 
 
 .home-link {
+    font-family: 'Playfair Display', serif;
     color: white;
     }
 
@@ -75,6 +74,7 @@ body {
 
 /* FOOTER */
 .flex-container {
+  font-family: 'Playfair Display', serif;
   padding: 0;
   margin: 0;
   list-style: none;
