@@ -1,0 +1,274 @@
+
+
+/* -----------------------------------------------------------------------------------
+	
+	FONT FAMILY
+	___________
+	
+	Replace your fonts as needed for the different Elements
+
+----------------------------------------------------------------------------------- */
+body,
+.title-alt,
+input[type=text], input[type=password], input[type=email], textarea,
+input[type=submit], input[type=button], button,
+table thead th,
+blockquote cite,
+header.menu-open nav#main-nav > ul > li > a,
+nav#main-nav ul.sub-menu > li > a,
+.portfolio-category,
+.filter li a,
+.post-date,
+.pagination li a,
+#page-pagination .pagination li.page span, #page-pagination .pagination li.page a
+.tp-caption.sudo-caption.title-alt,
+.sr-button,
+.team-role,
+.phatvideo-bg .mute-video,
+span.onsale {
+	font-family: 'Hind';
+	}
+	
+
+h1, h2, h3, h4, h5, h6,
+blockquote,
+nav#main-nav ul > li > a,
+.post-cat,
+.pagination li a[data-title]:after,
+.tp-caption.dani-caption,
+.widget_recent_entries li a,
+.widget_recent_comments li a {
+	font-family: 'Playfair Display';
+	}
+	
+	
+	
+/* -----------------------------------------------------------------------------------
+	
+	FONT STYLING
+	___________
+	
+	Change your specefic font settings (weight,size,style,...) if needed
+
+----------------------------------------------------------------------------------- */
+
+/* - - -       FONT MAIN (Hind)       - - - */
+
+body {
+	font-weight: 300;
+	font-size: 16px; 
+	line-height: 25px;
+	}
+	strong, b, dt { font-weight: 500; }
+
+.title-alt,
+.tp-caption.sudo-caption.title-alt { 
+	font-weight: 300; 
+	letter-spacing: 0.01em; 
+	}
+	.title-alt b, .title-alt strong,
+	.tp-caption.sudo-caption.title-alt strong { font-weight: 500; }
+	
+input[type=text], input[type=password], input[type=email], textarea {
+	font-weight: 400;
+	font-size: 16px;
+	}
+	
+input[type=submit], input[type=button], button {
+	font-weight: 500;
+	font-size: 13px;
+	}
+	
+label {
+	font-weight: 500;
+	font-size: 16px;
+	}
+	
+table thead th {
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 20px;
+	}
+	
+blockquote cite {
+	font-size: 16px;
+	line-height: 24px;
+	font-weight: 300;
+	letter-spacing: 0.02em;
+	}
+	
+header.menu-open nav#main-nav > ul > li > a {
+	font-weight: 500;
+	font-size: 14px;
+	text-transform: uppercase;
+	letter-spacing: 0.05em;
+	}
+	
+nav#main-nav ul.sub-menu > li > a {
+	font-weight: 400; 
+	font-size: 14px;
+	line-height: 22px;
+	text-transform: uppercase; 
+	letter-spacing: 0.03em;
+	}
+	
+.portfolio-category {
+	font-weight: 300; 
+	font-size: 14px;
+	line-height: 20px;
+	text-transform: uppercase; 
+	letter-spacing: 0.18em;
+	}
+	
+.filter li a {
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 21px;
+	}
+	
+.post-date {
+	font-weight: 300; 
+	font-size: 14px;
+	line-height: 20px;
+	text-transform: uppercase; 
+	letter-spacing: 0.18em;
+	}
+	
+.widget_recent_entries li span.post-date {
+	font-size: 14px;
+	}
+	
+.comments .comment-reply-link {
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 20px;
+	}
+	
+.pagination li a {
+	font-weight: 500;
+	font-size: 16px;
+	}
+	
+#page-pagination .pagination li.page span, #page-pagination .pagination li.page a {
+	font-weight: 500;
+	font-size: 15px;
+	}
+	
+.sr-button {
+	font-weight: 500;
+	letter-spacing: 0.06em;
+	text-transform: uppercase;
+	}
+	
+.team-role {
+	font-family: 'Hind'; 
+	font-weight: 300; 
+	font-size: 14px;
+	line-height: 20px;
+	text-transform: uppercase; 
+	letter-spacing: 0.18em;
+	}
+	
+.widget ul:not(.socialmedia-widget) li a {
+	font-weight: 400;
+	letter-spacing: 0.02em;
+	}
+	
+.socialmedia-widget.text-style li a { 
+	font-size: 14px;
+	font-weight: 400;
+	}
+	
+.widget_tag_cloud a {
+	font-weight: 400;
+	font-size: 13px;
+	line-height: 19px;
+	}
+	
+.phatvideo-bg .mute-video {
+	font-weight: 500;
+	font-size: 12px;
+	line-height: 14px;
+	letter-spacing: 0.12em;
+	text-transform: uppercase;	
+	}
+
+.menu-cart .minicart-count {
+	font-weight: 500;
+	font-size: 10px;
+	}
+
+span.onsale {
+	font-weight: 500;
+	font-size: 0.8em;	
+	}
+
+.price, .amount  { 
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 22px;
+	}
+
+.product_list_widget li  > a { 
+	font-weight: 400;
+	font-size: 17px; 
+	line-height: 25px;
+	}
+	
+	
+
+/* - - -       FONT TITLE (Playfair Display)       - - - */
+
+h1, h2, h3, h4, h5, h6,
+.tp-caption.dani-caption {
+	font-weight: 400;
+	letter-spacing: -0.02em;
+	}
+	h1 i, h2 i, h3 i, h4 i, h5 i, h6 i, h1 em, h2 em, h3 em, h4 em, h5 em, h6 em,
+	.tp-caption.dani-caption em { font-style: italic; }
+	h1 b, h2 b, h3 b, h4 b, h5 b, h6 b, h1 strong, h2 strong, h3 strong, h4 strong, h5 strong, h6 strong,
+	.tp-caption.dani-caption strong { font-weight: 700; }
+	
+h1 { font-size: 66px; line-height: 80px; }
+h2 { font-size: 48px; line-height: 61px; }
+h3 { font-size: 34px; line-height: 46px; }
+h4 { font-size: 24px; line-height: 35px; }
+h5 { font-size: 20px; line-height: 31px; }
+h6 { font-size: 16px; line-height: 25px; }
+
+blockquote {
+	font-weight: 400;
+	font-size: 28px; 
+	line-height: 42px;
+	letter-spacing: -0.02em;
+	}
+	
+nav#main-nav ul > li > a {
+	font-weight: 700;
+	font-size: 40px;
+	}
+	
+.post-cat { 
+	font-weight: 400;
+	font-size: 13px;
+	letter-spacing: 0em;
+	font-style: italic;
+	}
+	
+.pagination li a[data-title]:after {
+	font-weight: 300;
+	font-size: 20px;
+	line-height: 28px;
+	}
+	
+.widget_recent_entries li a {
+	font-weight: 400;
+	letter-spacing: 0;
+	}
+	
+.widget_recent_comments li a {
+	font-weight: 400;
+	letter-spacing: 0;
+	}
+	
+	

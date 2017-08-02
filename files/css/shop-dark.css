@@ -1,0 +1,281 @@
+/*  ---------------------------------------------------	*/
+
+/*    GENERAL								*/
+	
+/* ---------------------------------------------------	*/	
+.woocommerce .woocommerce-info::before, .woocommerce .woocommerce-message::before { 
+	color: #ffffff;
+	border: 1px solid rgba(255,255,255,0.75);
+	}
+	
+.woocommerce .woocommerce-message { 
+	background: #ffffff; 
+	color: #000000; 
+	}
+	
+.woocommerce .woocommerce-message::before {
+	color: #000000;
+	border-color: #000000;
+	}
+	
+.woocommerce .woocommerce-message a.button {
+	background: #000000;
+	color: #ffffff;
+	}
+	.woocommerce .woocommerce-message a.button:hover { background: rgba(0,0,0,0.8); }
+	
+.woocommerce .woocommerce-message a:not(.button) {
+	color: rgba(0,0,0,0.6);
+	border-bottom: 1px solid rgba(0,0,0,0.12);
+	}
+	.woocommerce .woocommerce-message a:not(.button):hover { color: #000000; }
+	
+
+/* select2 plugin */
+.select2-container .select2-choice, .select2-dropdown-open.select2-drop-above .select2-choice, .select2-dropdown-open.select2-drop-above .select2-choices {
+    background: rgba(255,255,255,0.19);
+	}
+	
+.select2-container .select2-choice .select2-chosen {
+    color: #ffffff;
+	}
+	
+.select2-drop, .select2-drop.select2-drop-above.select2-drop-active {
+    background: #2d2d2d;
+	border: 1px solid #4d4d4d;
+	}
+	
+.select2-search {
+	background: #000000;
+	}
+	
+.select2-search input {
+	background: #000000;
+	}
+	
+.select2-results li {
+    color: rgba(255,255,255,0.75);
+	}
+	
+.select2-results .select2-highlighted {
+    background: #ffffff;
+    color: #000000;
+	}	
+
+	
+/* price */	
+.price, .amount  { 
+	color: #ffffff;
+	}
+	
+.price del  { 
+	opacity: 0.55;
+	}
+	
+	
+/* star rating */
+.woocommerce .star-rating::before {
+    color: rgba(255,255,255,0.4);
+	}
+	
+.woocommerce .star-rating span { 
+	color: #ffffff;
+	}
+	
+	
+/* Quantity buttons */	
+.quantity span::before {
+	background: #ffffff;
+	}
+	
+.quantity span.plus::after {
+	background: #ffffff;
+	}
+	
+.quantity span:hover::before, .quantity span:hover::after {
+	background: #b3b3b3;
+	}		
+	
+/* remove button */			
+a.remove { color: #ce4a4a; }	
+a.remove:hover { color: #ffffff; }	
+	
+	
+/*  ---------------------------------------------------	*/
+
+/*    SHOP GRID PAGE 									*/
+	
+/* ---------------------------------------------------	*/
+.shop-container .shop-item .image-block .grid-button {
+	color: #000000;
+	}
+	
+.shop-container .shop-item .image-block .grid-button.loading::after {
+	border: 2px solid #000000;  
+	border-right-color: transparent;
+	border-left-color: transparent;
+	border-bottom-color: transparent;
+	}
+	
+.shop-container .shop-item .image-block .grid-button.added::before {
+	color: #000000;
+	}
+	
+	
+	
+/*  ---------------------------------------------------	*/
+
+/*    SHOP SINGLE PAGE 									*/
+	
+/* ---------------------------------------------------	*/
+.woocommerce .product .single-content .woocommerce-review-link { 
+	color: rgba(255,255,255,0.75); 									
+	}
+	.woocommerce .product .single-content .woocommerce-review-link:hover {
+		color: #ffffff;
+	}
+	
+.woocommerce .product table.variations label {
+	color: #ffffff;
+	}
+	
+.woocommerce .product table.variations select {
+	color: rgba(255,255,255,0.55); 	
+	}
+	
+.woocommerce .product table.variations select option {
+	color: #ffffff;
+	}
+	
+p.stars a::before, p.stars span:hover a:hover ~ a::before, p.stars.selected span:hover a:hover ~ a::before, p.stars.selected a.active ~ a::before {
+    color: rgba(255,255,255,0.4);
+	}
+	
+p.stars span:hover a::before, p.stars.selected span:hover a::before, p.stars.selected a::before {
+	color: #ffffff;
+	}
+	
+	
+	
+/*  ---------------------------------------------------	*/
+
+/*    CART											 	*/
+	
+/* ---------------------------------------------------	*/
+.woocommerce .shop_table .product-name .variation dt {
+	color: #ffffff;
+	}
+	
+.woocommerce .shop_table .product-price .amount {
+	color: rgba(255,255,255,0.75);
+	}
+	
+.woocommerce .cart-actions .button {
+    color: #4893cd;
+	border-color: rgba(255,255,255,0.24);
+	}	
+	.woocommerce .cart-actions .button:hover { color: #ffffff; }
+	
+.woocommerce .cart-collaterals table tr.shipping a.shipping-calculator-button { 
+	border-color: rgba(255,255,255,0.24);
+ 	}
+	
+	
+/*  ---------------------------------------------------	*/
+
+/*    CHECKOUT										    */
+	
+/* ---------------------------------------------------	*/
+
+.woocommerce .before-checkout .woocommerce-info a {
+	border-color: rgba(255,255,255,0.24);
+	}
+	
+.woocommerce .before-checkout .checkout-login .login .lost_password a,
+.woocommerce #customer_login .login .lost_password a {
+	border-color: rgba(255,255,255,0.24);
+	}	
+	
+.woocommerce .checkout-section #order_review #payment  {
+	background: rgba(255,255,255,0.19);
+	}
+	
+.woocommerce .payment_methods li label a {
+	border-color: rgba(255,255,255,0.24);
+	}
+
+
+
+
+/*  ---------------------------------------------------	*/
+
+/*    THANK YOU / ORDER DETAILS							*/
+	
+/* ---------------------------------------------------	*/	
+.woocommerce ul.order_details li { 
+	background: rgba(255,255,255,0.19);
+	}
+	
+.woocommerce ul.order_details li strong { 
+	color: #ffffff;
+	}
+
+
+
+/*  ---------------------------------------------------	*/
+
+/*    ACCOUNT PAGE 										*/
+	
+/* ---------------------------------------------------	*/	
+.woocommerce-MyAccount-navigation ul li a {	
+	color: #ffffff;
+	}
+	.woocommerce-MyAccount-navigation ul li a:hover, .woocommerce-MyAccount-navigation ul li.is-active a { color: rgba(255,255,255,0.75); }
+	
+.woocommerce-MyAccount-navigation ul li::after { 
+	background: rgba(255,255,255,0.24);
+	}
+	.text-dark .woocommerce-MyAccount-navigation ul li::after { background: rgba(0,0,0,0.12); }
+	
+/* my account > adresses */	
+.woocommerce .woocommerce-Address a {
+	border-color: rgba(255,255,255,0.24);
+	}
+	.woocommerce .woocommerce-Address a:hover { color: #ffffff; }
+	
+/*  ---------------------------------------------------	*/
+
+/*    WIDGETS: 			;								*/
+	
+/* ---------------------------------------------------	*/
+.widget .cart-bottom {
+	border-color: rgba(255,255,255,0.24);
+	}
+	.text-dark .widget .cart-bottom { border-color: rgba(0,0,0,0.12); }
+
+/* filter */
+.widget_price_filter .price_slider_wrapper .price_slider { 
+	background: rgba(255,255,255,0.24); 
+	}
+	
+.widget_price_filter .price_slider_wrapper .price_slider .ui-slider-range {
+    background: #ffffff;
+	}
+	
+.widget_price_filter .price_slider_wrapper .price_slider .ui-slider-handle {
+    background: #ffffff;
+	}
+	
+.widget_price_filter .price_slider_wrapper .price_slider_amount .price_label span {
+    color: #ffffff;
+	}
+
+.widget_price_filter .price_slider_wrapper .price_slider_amount .button {
+    background: #ffffff; 
+	color: #000000;
+	}
+
+.widget_price_filter .price_slider_wrapper .price_slider_amount .button:hover,
+.widget_price_filter .price_slider_wrapper .price_slider_amount .button:active {
+    background-color: rgba(255,255,255,0.75);
+	}

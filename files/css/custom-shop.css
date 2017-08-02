@@ -1,0 +1,333 @@
+
+
+/* -----------------------------------------------------------------------------------
+	
+	FONT FAMILY
+	___________
+	
+	Replace your fonts as needed for the different Elements
+
+----------------------------------------------------------------------------------- */
+body,
+.title-alt,
+input[type=text], input[type=password], input[type=email], textarea,
+input[type=submit], input[type=button], button,
+table thead th,
+blockquote cite,
+header.menu-open nav#main-nav > ul > li > a,
+nav#main-nav ul.sub-menu > li > a,
+.portfolio-category,
+.filter li a,
+.post-date,
+.pagination li a,
+#page-pagination .pagination li.page span, #page-pagination .pagination li.page a
+.tp-caption.sudo-caption.title-alt,
+.sr-button,
+.team-role,
+.phatvideo-bg .mute-video,
+span.onsale {
+	font-family: 'Karla';
+	}
+	
+
+h1, h2, h3, h4, h5, h6,
+blockquote,
+nav#main-nav ul > li > a,
+.post-cat,
+.pagination li a[data-title]:after,
+.tp-caption.dani-caption,
+.widget_recent_entries li a,
+.widget_recent_comments li a {
+	font-family: 'Karla';
+	}
+	
+	
+	
+/* -----------------------------------------------------------------------------------
+	
+	FONT STYLING
+	___________
+	
+	Change your specefic font settings (weight,size,style,...) if needed
+
+----------------------------------------------------------------------------------- */
+
+/* - - -       FONT MAIN (Hind)       - - - */
+
+body {
+	font-weight: 400;
+	font-size: 15px; 
+	line-height: 26px;
+	}
+	strong, b, dt { font-weight: 700; }
+
+.title-alt,
+.tp-caption.sudo-caption.title-alt { 
+	font-weight: 400; 
+	letter-spacing: 0.01em; 
+	}
+	.title-alt b, .title-alt strong,
+	.tp-caption.sudo-caption.title-alt strong { font-weight: 700; }
+	
+input[type=text], input[type=password], input[type=email], textarea, select {
+	font-weight: 400;
+	font-size: 14px;
+	}
+	
+input[type=submit], input[type=button], button {
+	font-weight: 500;
+	font-size: 13px;
+	}
+	
+label {
+	font-weight: 500;
+	font-size: 15px;
+	}
+	
+table thead th {
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 20px;
+	}
+	
+blockquote cite {
+	font-size: 15px;
+	line-height: 24px;
+	font-weight: 300;
+	letter-spacing: 0.02em;
+	}
+	
+header.menu-open nav#main-nav > ul > li > a {
+	font-weight: 500;
+	font-size: 16px;
+	text-transform: none;
+	letter-spacing: 0.0em;
+	}
+	
+nav#main-nav ul.sub-menu > li > a,
+header.menu-open nav#main-nav ul.sub-menu > li > a {
+	font-weight: 400; 
+	font-size: 13px;
+	line-height: 24px;
+	text-transform: none; 
+	letter-spacing: 0.0em;
+	}
+	
+.portfolio-category {
+	font-weight: 400; 
+	font-size: 14px;
+	line-height: 20px;
+	text-transform: uppercase; 
+	letter-spacing: 0.18em;
+	}
+	
+.filter li a {
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 21px;
+	}
+	
+.post-date {
+	font-weight: 400; 
+	font-size: 14px;
+	line-height: 20px;
+	text-transform: uppercase; 
+	letter-spacing: 0.18em;
+	}
+	
+.widget_recent_entries li span.post-date {
+	font-size: 14px;
+	}
+	
+.comments .comment-reply-link {
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 20px;
+	}
+	
+.pagination li a {
+	font-weight: 500;
+	font-size: 15px;
+	}
+	
+#page-pagination .pagination li.page span, #page-pagination .pagination li.page a {
+	font-weight: 500;
+	font-size: 15px;
+	}
+	
+.sr-button {
+	font-weight: 500;
+	letter-spacing: 0.06em;
+	text-transform: uppercase;
+	}
+	
+.team-role {
+	font-family: 'Hind'; 
+	font-weight: 400; 
+	font-size: 14px;
+	line-height: 20px;
+	text-transform: uppercase; 
+	letter-spacing: 0.18em;
+	}
+	
+.widget ul:not(.socialmedia-widget) li a {
+	font-weight: 400;
+	letter-spacing: 0.02em;
+	}
+	
+.socialmedia-widget.text-style li a { 
+	font-size: 14px;
+	font-weight: 400;
+	}
+	
+.widget_tag_cloud a {
+	font-weight: 400;
+	font-size: 13px;
+	line-height: 19px;
+	}
+	
+.phatvideo-bg .mute-video {
+	font-weight: 500;
+	font-size: 12px;
+	line-height: 14px;
+	letter-spacing: 0.12em;
+	text-transform: uppercase;	
+	}
+
+.sr-button, input[type=submit], input[type=button], .button, button { 
+	font-weight: 400;
+	letter-spacing: 0em;
+	text-transform: none;
+	}
+
+.menu-cart .minicart-count {
+	font-size: 10px;
+	font-weight: 500;
+	}
+
+span.onsale {
+	font-weight: 500;
+	font-size: 0.8em;	
+	}
+
+.price, .amount  { 
+	font-size: 15px;
+	line-height: 22px;
+	font-weight: 500;
+	}
+
+.product_list_widget li  > a { 
+	font-weight: 400;
+	font-size: 17px; 
+	line-height: 25px;
+	}
+	
+	
+
+/* - - -       FONT TITLE (Playfair Display)       - - - */
+
+h1, h2, h3, h4, h5, h6,
+.tp-caption.dani-caption {
+	font-weight: 400;
+	letter-spacing: -0.02em;
+	}
+	h1 i, h2 i, h3 i, h4 i, h5 i, h6 i, h1 em, h2 em, h3 em, h4 em, h5 em, h6 em,
+	.tp-caption.dani-caption em { font-style: italic; }
+	h1 b, h2 b, h3 b, h4 b, h5 b, h6 b, h1 strong, h2 strong, h3 strong, h4 strong, h5 strong, h6 strong,
+	.tp-caption.dani-caption strong { font-weight: 700; }
+	
+h1 { font-size: 66px; line-height: 80px; }
+h2 { font-size: 48px; line-height: 61px; }
+h3 { font-size: 34px; line-height: 46px; }
+h4 { font-size: 24px; line-height: 35px; }
+h5 { font-size: 20px; line-height: 31px; }
+h6 { font-size: 17px; line-height: 25px; }
+
+blockquote {
+	font-weight: 400;
+	font-size: 28px; 
+	line-height: 42px;
+	letter-spacing: -0.02em;
+	}
+	
+nav#main-nav ul > li > a {
+	font-weight: 700;
+	font-size: 40px;
+	}
+	
+.post-cat { 
+	font-weight: 400;
+	font-size: 13px;
+	letter-spacing: 0em;
+	font-style: italic;
+	}
+	
+.pagination li a[data-title]:after {
+	font-weight: 300;
+	font-size: 20px;
+	line-height: 28px;
+	}
+	
+.widget_recent_entries li a {
+	font-weight: 400;
+	letter-spacing: 0;
+	}
+	
+.widget_recent_comments li a {
+	font-weight: 400;
+	letter-spacing: 0;
+	}
+
+
+
+
+/* -----------------------------------------------------------------------------------
+	
+	COLORS
+	___________
+	
+	Added color to some elements
+
+----------------------------------------------------------------------------------- */
+
+.colored,
+a,
+blockquote > p a:hover,
+h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover,
+nav#main-nav ul > li > a:hover, nav#main-nav ul > li.current-menu-item > a,	nav#main-nav ul > li:hover > a, 
+nav#main-nav ul:not(.underline) > li > a:hover, nav#main-nav ul:not(.underline) > li:hover > a,
+.text-light nav#main-nav ul > li > a:hover, .text-light nav#main-nav ul > li.current-menu-item > a,	.text-light nav#main-nav ul > li:hover > a,  
+.filter li a:hover, .filter li.active a,
+.pagination li a:hover,
+.pagination li.back a:hover:after, .pagination li.back a:hover:before, 
+.pagination li.back a:hover .icon:after, .pagination li.back a:hover .icon:before,
+.pagination li a[data-title]:not([data-title='']),
+#page-pagination .pagination li.page a:hover,
+.comments .comment-reply-link, .comments #cancel-comment-reply-link,
+.tabs ul.tab-nav li.active a,
+header.text-light.transparent.menu-is-open[class*='menu-full'] #menu-widget a
+{ color: #5d5ea2; }
+
+.sr-button:hover,
+.sr-button-icon:hover { border-color: #5d5ea2; }
+
+/* -- SHOP COLORS -- */
+.quantity span:hover::before, .quantity span:hover::after { background-color: #5d5ea2; }
+.woocommerce .star-rating span,
+p.stars span:hover a::before, p.stars.selected span:hover a::before, p.stars.selected a::before { color: #5d5ea2; }
+.menu-cart a.open-cart:hover .minicart-icon, .menu-cart a.open-cart:hover .minicart-icon::before { opacity: 1; border-color: #5d5ea2; }
+
+.menu-cart-content ul.cart_list li .item-name a:hover,
+.menu-cart-content.menu-dark ul.cart_list li .item-name a:hover { color: #5d5ea2; }
+
+.menu-cart-content .cart-bottom .buttons .sr-button.style-2 { background: #5d5ea2; color: #ffffff !important; }
+.menu-cart-content .cart-bottom .buttons .sr-button.style-2:hover { background: #000000; }
+.menu-cart-content.menu-dark .cart-bottom .buttons .sr-button.style-2 { background: #5d5ea2; color: #ffffff !important; }
+.menu-cart-content.menu-dark .cart-bottom .buttons .sr-button.style-2:hover { background: #ffffff; color: #000000 !important; }
+/* -- SHOP COLORS -- */
+
+a:hover,
+header.text-light.transparent.menu-is-open[class*='menu-full'] #menu-widget a:hover { color: #000000; }
+.text-light a:hover { color: #ffffff; }
+	
+	

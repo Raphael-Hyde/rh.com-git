@@ -1,0 +1,106 @@
+
+
+/* -----------------------------------------------------------------------------------
+	
+	FONT FAMILY
+	___________
+	
+	Replace your fonts as needed for the different Elements
+
+----------------------------------------------------------------------------------- */
+body,
+.title-alt,
+input[type=text], input[type=password], input[type=email], textarea,
+input[type=submit], input[type=button], button,
+table thead th,
+blockquote cite,
+nav#main-nav ul.sub-menu > li > a,
+.portfolio-category,
+.filter li a,
+.post-date,
+.pagination li a,
+#page-pagination .pagination li.page span, #page-pagination .pagination li.page a
+.tp-caption.sudo-caption.title-alt,
+.sr-button,
+.team-role,
+.phatvideo-bg .mute-video {
+	font-family: 'Roboto';
+	}
+	
+
+h1, h2, h3, h4, h5, h6,
+blockquote,
+nav#main-nav ul > li > a,
+header.menu-open nav#main-nav > ul > li > a,
+.post-cat,
+.pagination li a[data-title]:after,
+.tp-caption.dani-caption,
+.widget_recent_entries li a,
+.widget_recent_comments li a {
+	font-family: 'Roboto';
+	}
+	
+	
+	
+/* -----------------------------------------------------------------------------------
+	
+	FONT STYLING
+	___________
+	
+	Change your specefic font settings (weight,size,style,...)
+	
+	Only the elements/parts which were needed for the architecture demo has been changed.  
+	If you need any other parts, please add it here and adapt it to your needs.
+
+----------------------------------------------------------------------------------- */
+
+body {
+	font-weight: 300;
+	font-size: 18px; 
+	line-height: 28px;
+	}
+	strong, b, dt { font-weight: 400; }
+	
+h1, h2, h3, h4, h5, h6,
+.tp-caption.dani-caption {
+	font-weight: 300;
+	letter-spacing: 0em;
+	}
+	h1 i, h2 i, h3 i, h4 i, h5 i, h6 i, h1 em, h2 em, h3 em, h4 em, h5 em, h6 em,
+	.tp-caption.dani-caption em { font-style: italic; }
+	h1 b, h2 b, h3 b, h4 b, h5 b, h6 b, h1 strong, h2 strong, h3 strong, h4 strong, h5 strong, h6 strong,
+	.tp-caption.dani-caption strong { font-weight: 400; }
+	
+nav#main-nav ul > li > a {
+	font-weight: 300;
+	font-size: 40px;
+	letter-spacing: 0.02em;
+	}
+	
+header.menu-open nav#main-nav > ul > li > a {
+	font-weight: 300;
+	font-size: 16px;
+	text-transform: none;
+	letter-spacing: 0.02em;
+	}
+	
+.portfolio-category {
+	font-weight: 300; 
+	font-size: 18px;
+	line-height: 24px;
+	text-transform: none; 
+	letter-spacing: 0em;
+	color: rgba(0,0,0,0.6);
+	}
+	
+.socialmedia-widget.text-style li a { 
+	font-size: 16px;
+	font-weight: 300;
+	padding: 0 8px 2px 8px;
+	}
+	
+.filter li a {
+	font-weight: 300;
+	font-size: 18px;
+	line-height: 24px;
+	}
