@@ -22,3 +22,24 @@
 }
 
 
+
+
+.proj-sub-header {
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+}
+
+.title-bg {
+    background-color: yellow;
+    padding-right: 1rem;
+    letter-spacing: .25rem;
+}
+
+.color-band {
+    background-color: lightyellow;
+}
+
+.role {
+    font-family: 'Hind', sans-serif;
+    font-weight: 600;
+}
