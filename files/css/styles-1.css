@@ -14,3 +14,16 @@
 .hmw-text {
     margin-top: 40px;
 }
+
+
+
+
+
+#home-cta {
+    color: black;
+    background: rgba(255,255,255,0.50);
+    width:30%; 
+    display:inline-block;
+}
+
+
