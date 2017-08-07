@@ -16,13 +16,10 @@
 #home-cta {
     padding: 1rem;
     color: black;
-    background: rgba(255,255,255,0.50);
+    background: rgba(255,255,255,.85);
     width:30%; 
     display:inline-block;
 }
-
-
-
 
 .proj-sub-header {
     padding-bottom: 1rem;
@@ -42,4 +39,60 @@
 .role {
     font-family: 'Hind', sans-serif;
     font-weight: 600;
+}
+
+.circle-imgs {
+  border-radius: 50%;
+}
+
+#sect-2 {
+    height: 100%;
+    width: 50%;
+    margin: 0;
+}
+
+
+.personal-numbers {
+    font-family: 'Playfair Display';
+}
+
+
+
+.home-icons {
+    height: 3rem;
+    width: 3rem;
+}
+
+.img-circle {
+    border-radius: 50%;
+    height: 15rem;
+    width: 15rem;
+}
+
+#center-title {
+    align-content: center;
+}
+
+.highlighted-text {
+    background-color: yellow;
+    padding: 1rem;
+    padding-bottom: 3rem;
+}
+
+#cta-sub {
+    font-size: 1.5rem;
+    color: black;
+    width:30%; 
+    line-height: 1rem;
+    background-color: lightgray;
+    letter-spacing: .05rem;
+    
+}
+
+.section-3 {
+  background: url(/files/rh-uploads/az-desert_1680x1100.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
