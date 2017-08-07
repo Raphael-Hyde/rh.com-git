@@ -13,13 +13,7 @@
     background-color: rgba(0,0,0,0.3);
 }
 
-#home-cta {
-    padding: 1rem;
-    color: black;
-    background: rgba(255,255,255,.85);
-    width:30%; 
-    display:inline-block;
-}
+
 
 .proj-sub-header {
     padding-bottom: 1rem;
@@ -79,15 +73,7 @@
     padding-bottom: 3rem;
 }
 
-#cta-sub {
-    font-size: 1.5rem;
-    color: black;
-    width:30%; 
-    line-height: 1rem;
-    background-color: lightgray;
-    letter-spacing: .05rem;
-    
-}
+
 
 .section-3 {
   background: url(/files/rh-uploads/az-desert_1680x1100.jpg) no-repeat center center fixed; 
@@ -95,4 +81,25 @@
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+}
+
+#home-cta {
+    color: black;
+    display:inline-block;
+}
+
+#cta-sub-text {
+    color: black;
+    background-color: yellow;
+    padding-left: 1rem;
+    letter-spacing: .1rem;
+}
+
+#cta-header {
+    background-color: yellow;
+    padding: 1rem;
+}
+
+#cta-section {
+    width: 50%;
 }
