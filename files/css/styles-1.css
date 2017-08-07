@@ -90,13 +90,13 @@
 
 #cta-sub-text {
     color: black;
-    background-color: lightgrey;
+    background-color: white;
     padding-left: 1rem;
     letter-spacing: .1rem;
 }
 
 #cta-header {
-    background-color: yellow;
+    background-color: white;
     padding: 1rem;
 }
 
