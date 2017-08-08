@@ -32,8 +32,7 @@
 
 .role {
     font-family: 'Hind', sans-serif;
-    font-weight: 400;
-    color: white;
+    font-weight: 100;
 }
 
 .circle-imgs {
@@ -111,6 +110,7 @@
 
 .sub-text {
     font-size: 2rem;
+    font-family: 'Hind', sans-serif;
 }
 
 
@@ -120,4 +120,26 @@
     font-size: 2rem;
 	font-weight: 300; 
 	letter-spacing: 0.1em; 
+}
+
+.proj-header {
+    font-family: 'Hind', sans-serif;
+    font-weight: 900;
+}
+
+.title-color {
+    color: black;
+}
+
+
+
+.proj-icons {
+    height: 4rem;
+    width: 4rem;
+}
+
+.topic-icons {
+    width: 3rem;
+    height: 3rem;
+    padding: 2rem;
 }
