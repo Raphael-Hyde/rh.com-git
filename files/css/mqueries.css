@@ -257,6 +257,7 @@ Smartphones (768px max)
 	header:not(.transparent) + #hero.hero-full { min-height: calc(100vh - 55px); }
 	header:not(.transparent) + #hero.hero-big { min-height: calc(75vh - 55px); }
 	header.transparent + #hero.hero-auto #page-title, header.transparent + #hero #page-title.title-top { padding-top: 100px; }
+    
 	
 	.menu-language { height: 55px !important; max-height: 100%; margin-right: 25px; margin-left: 20px; }
 
