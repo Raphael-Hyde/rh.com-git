@@ -143,3 +143,7 @@
     height: 3rem;
     padding: 2rem;
 }
+
+.important-text {
+    font-weight: 700;
+}
