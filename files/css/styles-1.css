@@ -147,3 +147,21 @@
 .important-text {
     font-weight: 700;
 }
+
+.text-justify {
+    text-align: justify;
+    -moz-text-align-last: right; /* Code for Firefox */
+    text-align-last: right;
+}
+
+
+
+
+
+
+
+.sub-topic-icons {
+    width: 3rem;
+    height: 3rem;
+
+}
