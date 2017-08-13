@@ -194,6 +194,10 @@
     margin-bottom: .5rem;
 }
 
+.icon-bg-1:hover {
+    background-color: cyan;
+}
+
 .icon-yellow {
     background-color: #FFFB8C;
 }
@@ -206,11 +210,37 @@
     background-color: #CBE5F1;
 }
 
-
 .hmw-text-1 {
     padding-left: .5rem;
     padding-right: .5rem;
     margin-top: .5rem;
     background-color: lightskyblue;
     border-radius: .25rem;
+}
+
+.customer-highlights {
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+    font-family: 'Playfair Display';
+    color: black;
+    background-color: azure;
+}
+
+.customer-highlights:hover {
+    transition: background-color .5s ease;
+    background-color: #b2ffff;
+}
+
+
+
+.fiixed-img {
+    position: relative; 
+   width: 100%; /* for IE 6 */
+}
+
+#fiixed-header-1 {
+    position: absolute; 
+    top: 50%; 
+    left: 0; 
+    width: 100%;
 }
