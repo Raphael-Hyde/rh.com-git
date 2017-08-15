@@ -138,6 +138,12 @@
     width: 4rem;
 }
 
+.proj-icons-sm {
+    height: 2rem;
+    width: 2rem;
+    margin: 1rem;
+}
+
 .topic-icons {
     width: 3rem;
     height: 3rem;
@@ -250,4 +256,10 @@
 .fiixed-subheader-1 {
     font-size: 2rem;
     
+}
+
+
+
+.bg-section {
+    background-color: lightyellow;
 }
