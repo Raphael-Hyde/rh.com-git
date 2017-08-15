@@ -240,8 +240,14 @@
 
 #fiixed-header-1 {
     position: absolute; 
-    top: 50%; 
+    top: 30%; 
     left: 2rem; 
     width: 100%;
-    font-family: 'Hind', sans-serif;
+    font-family: 'Playfair Display';
+    font-weight: 100;
+}
+
+.fiixed-subheader-1 {
+    font-size: 2rem;
+    
 }
