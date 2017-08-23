@@ -224,6 +224,24 @@
     border-radius: .25rem;
 }
 
+.hmw-text-2 {
+    padding-left: .5rem;
+    padding-right: .5rem;
+    margin-top: .5rem;
+    background-color: yellow;
+    border-radius: .25rem;
+}
+
+/*
+.hmw-text-lightblue {
+    padding-left: .5rem;
+    padding-right: .5rem;
+    margin-top: .5rem;
+    background-color: lightblue;
+    border-radius: .25rem;
+}
+*/
+
 .customer-highlights {
     font-size: 1.5rem;
     line-height: 2.5rem;
@@ -248,20 +266,61 @@
     position: absolute; 
     top: 30%; 
     left: 2rem; 
+    line-height: 150%;
     width: 100%;
-    font-family: 'Playfair Display';
-    font-weight: 100;
+    font-family: 'Hind';
+    font-weight: 400;
+    font-size: 2.5rem;
 }
 
 .fiixed-subheader-1 {
-    font-size: 2rem;
+    font-size: 1.5rem;
+    font-family: 'Hind', sans-serif;
+    font-weight: 100;
     
 }
-
-
 
 .bg-section {
     background-color: lightyellow;
 }
 
 
+
+.img-header {
+    position: absolute; 
+    top: 200px; 
+    left: 0; 
+    width: 100%; 
+}
+
+
+.insight-number-max {
+    font-size: 8rem;
+    color: lightskyblue;
+}
+
+.symbol-1 {
+    color: lightskyblue;
+    font-size: 3rem;
+    vertical-align: bottom;
+}
+
+#fiixed-header-left {
+    position: absolute;
+    color: white;
+    top: 40%; 
+    text-align: right;
+    line-height: 5rem;
+    right: 2rem; 
+    width: 100%;
+    font-family: 'Playfair Display';
+    font-weight: 100;
+}
+
+.left-icon-padding {
+    padding-right: 1rem;
+}
+
+.wht-text {
+    color: white;
+}
