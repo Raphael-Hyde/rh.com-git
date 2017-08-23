@@ -264,7 +264,7 @@
 
 #fiixed-header-1 {
     position: absolute; 
-    top: 30%; 
+    top: 40%; 
     left: 2rem; 
     line-height: 150%;
     width: 100%;
@@ -278,6 +278,41 @@
     font-family: 'Hind', sans-serif;
     font-weight: 100;
     
+}
+
+#fiixed-header-right {
+    position: absolute;
+    color: black;
+    top: 40%; 
+    text-align: right;
+    line-height: 5rem;
+    right: 5rem; 
+    width: 100%;
+    font-family: 'Hind', sans-serif;
+    font-weight: 400;
+    font-size: 2.5rem;
+    
+}
+
+#fiixed-header-left {
+    position: absolute;
+    color: black;
+    top: 40%; 
+    text-align: left;
+    line-height: 5rem;
+    left: 5rem; 
+    width: 100%;
+    font-family: 'Hind', sans-serif;
+    font-weight: 400;
+    font-size: 2.5rem;
+}
+
+.left-icon-padding {
+    padding-right: .5rem;
+}
+
+.wht-text {
+    color: white;
 }
 
 .bg-section {
@@ -305,22 +340,6 @@
     vertical-align: bottom;
 }
 
-#fiixed-header-left {
-    position: absolute;
-    color: white;
-    top: 40%; 
-    text-align: right;
-    line-height: 5rem;
-    right: 2rem; 
-    width: 100%;
-    font-family: 'Playfair Display';
-    font-weight: 100;
-}
 
-.left-icon-padding {
-    padding-right: 1rem;
-}
 
-.wht-text {
-    color: white;
-}
+
