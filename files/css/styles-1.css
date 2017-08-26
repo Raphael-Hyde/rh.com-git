@@ -145,9 +145,15 @@
 }
 
 .topic-icons {
-    width: 3rem;
-    height: 3rem;
+    width: 2rem;
+    height: 2rem;
     padding: 2rem;
+}
+
+.home-icons{
+    width: 2.5rem;
+    height: 2.5rem;
+    padding: 2rem 2rem 0rem 2rem;
 }
 
 .important-text {
@@ -376,11 +382,6 @@
     background-color: #F7E7D2;
 }
 
-
-
-.home-tag {
-}
-
 .space {
     font-size: 1.5rem;
     padding-right: .5rem;
@@ -416,7 +417,7 @@
 
 .flex-item {
     width: 150px;
-    height: 125px;
+    height: 150px;
     margin: 10px;
     margin-left: 0rem;
     font-size: 1.5em;
