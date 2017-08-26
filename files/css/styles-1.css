@@ -388,6 +388,9 @@
 
 
 /* FLEX BOX */
+
+/* ////////   demo here: https://codepen.io/team/css-tricks/pen/1ea1ef35d942d0041b0467b4d39888d3*/
+
 .flex-container {
   padding: 0;
   margin: 0;
@@ -406,13 +409,10 @@
   flex-wrap: nowrap;
 }
 
-.wrap-reverse         { 
-  -webkit-flex-wrap: wrap-reverse;
-  flex-wrap: wrap-reverse;
+.wrap    { 
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
 }  
-.wrap-reverse li {
-  background: deepskyblue;
-}
 
 .flex-item {
     width: 150px;
