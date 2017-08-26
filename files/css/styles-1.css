@@ -427,3 +427,7 @@
 .home-icon {
     padding: 1.5rem .5rem .5rem 1rem;
 }
+
+#home-subtitle {
+    font-family: 'Hind',sans-serif;
+}
