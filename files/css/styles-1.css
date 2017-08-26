@@ -341,10 +341,88 @@
 }
 
 
-
-
-
 #mediums {
     font-family: 'Hind',sans-serif;
     font-weight: 500;
+}
+
+.logo-hover:hover {
+        -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+}
+
+#designer {
+    background-color: #DCCFE1;
+    margin-top: 10px;;
+}
+
+#coder {
+    background-color: #FACCD6;
+}
+
+#researcher {
+    background-color: #FFF5C7;
+}
+
+#fabricator {
+    background-color: #C9F1E8;
+}
+
+#explorer {
+    background-color: #BFE9D7;
+}
+
+#human {
+    background-color: #F7E7D2;
+}
+
+
+
+.home-tag {
+}
+
+.space {
+    font-size: 1.5rem;
+    padding-right: .5rem;
+}
+
+
+/* FLEX BOX */
+.flex-container {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  -ms-box-orient: horizontal;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: flex;
+}
+
+.nowrap  { 
+  -webkit-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+}
+
+.wrap-reverse         { 
+  -webkit-flex-wrap: wrap-reverse;
+  flex-wrap: wrap-reverse;
+}  
+.wrap-reverse li {
+  background: deepskyblue;
+}
+
+.flex-item {
+    width: 150px;
+    height: 125px;
+    margin: 10px;
+    margin-left: 0rem;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.home-icon {
+    padding: 1.5rem .5rem .5rem 1rem;
 }
