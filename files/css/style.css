@@ -4012,3 +4012,4 @@ header.transparent + #hero #page-title.title-top { padding-top: calc(125px + 30p
 header[class*='wrapper'].transparent + #hero.hero-auto #page-title,
 header[class*='wrapper'].transparent + #hero #page-title.title-top { padding-top: calc(150px + 30px); }
 .single-content.col-not-sticky { padding-top: calc(100px + 30px); }
+
