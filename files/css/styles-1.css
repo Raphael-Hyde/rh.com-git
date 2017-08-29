@@ -132,6 +132,18 @@
     padding: 2rem;
 }
 
+.sub-tool-icons {
+    width: 2.5rem;
+    height: 2.5rem;
+    padding: 2.5rem;
+}
+
+@media only screen and (max-width: 600px) {
+    .sub-tool-icons {
+    margin-top: 1rem;
+    }
+}
+
 .home-icons{
     width: 2.5rem;
     height: 2.5rem;
