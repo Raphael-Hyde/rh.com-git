@@ -322,6 +322,21 @@
     background-color: lightyellow;
 }
 
+.bg-section-2 {
+    background-color: #FFF5C7;
+}
+
+.bg-section-3 {
+    background-color: #C9F1E8;
+}
+
+.bg-section-4 {
+    background-color: #F7E7D2;
+}
+
+.bg-section-5 {
+    background-color: #DCCFE1;
+}
 
 
 .img-header {
@@ -490,3 +505,9 @@
 	text-transform: uppercase;
     font-size: 1.25rem;
 }
+
+.justify {
+    text-align: justify;
+}
+
+
