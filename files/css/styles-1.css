@@ -516,6 +516,7 @@
     background-color: rgba(16,16,16,0.1);
     padding: .3rem .5rem .2rem .5rem;
     border-radius: .5rem;
-    margin: .25rem;
+    margin: 1rem .25rem;
     color: black;
+    line-height: 3rem;
 }
