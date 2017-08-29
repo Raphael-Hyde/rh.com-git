@@ -453,7 +453,6 @@
 }
 
 
-
 .home-btn {
     margin: .25rem;
     margin-bottom: .5rem;
@@ -473,4 +472,21 @@
 
 .home-icon-text {
     font-family: 'Hind',sans-serif;
+    font-weight: 400;
+	letter-spacing: 0.2em;
+	text-transform: uppercase;
+    font-size: .9rem;
+}
+
+#take-the-plung {
+    margin-top: 1rem;
+}
+
+
+#contact-info {
+    font-family: 'Hind',sans-serif;
+    font-weight: 100;
+	letter-spacing: 0.2em;
+	text-transform: uppercase;
+    font-size: 1.25rem;
 }
