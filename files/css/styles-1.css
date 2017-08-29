@@ -52,10 +52,7 @@
 
 
 
-.home-icons {
-    height: 3rem;
-    width: 3rem;
-}
+
 
 .img-circle {
     border-radius: 50%;
@@ -472,4 +469,8 @@
 
 .home-cta-2 {
     background-color: aliceblue;
+}
+
+.home-icon-text {
+    font-family: 'Hind',sans-serif;
 }
