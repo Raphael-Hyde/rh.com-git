@@ -31,8 +31,7 @@
 }
 
 .role {
-    font-family: 'Hind', sans-serif;
-    font-weight: 100;
+    font-family: 'Playfair Display';
 }
 
 .circle-imgs {
@@ -50,10 +49,6 @@
     font-family: 'Playfair Display';
 }
 
-
-
-
-
 .img-circle {
     border-radius: 50%;
     height: 15rem;
@@ -69,8 +64,6 @@
     padding: 1rem;
     padding-bottom: 3rem;
 }
-
-
 
 .section-3 {
   background: url(/files/rh-uploads/az-desert_1680x1100.jpg) no-repeat center center fixed; 
@@ -101,16 +94,10 @@
     width: 50%;
 }
 
-
-
-
-
 .sub-text {
     font-size: 2rem;
     font-family: 'Hind', sans-serif;
 }
-
-
 
 .label-text {
 	font-family: 'Playfair Display';
@@ -127,8 +114,6 @@
 .title-color {
     color: black;
 }
-
-
 
 .proj-icons {
     height: 4rem;
@@ -217,6 +202,47 @@
 
 .icon-blue {
     background-color: #CBE5F1;
+}
+
+/* // TOOLS PAGE ICON & SECTION BG COLORS // */
+
+.icon-bg-yellow {
+    background-color: #FFF8DD;
+}
+.bg-section-yellow {
+    background-color: #FFF5C7;
+}
+
+.icon-bg-green {
+    background-color: #D6F1E5;
+}
+.bg-section-green {
+    background-color: #CAEDDE;
+}
+
+.icon-bg-blue {
+    background-color: #D2ECED;
+}
+.bg-section-blue {
+    background-color: #C9E8EA;
+}
+
+.icon-bg-purple {
+    background-color: #E2D7E6;
+}
+.bg-section-purple {
+    background-color: #DCCFE1;
+}
+
+.icon-bg-red {
+    background-color: #FAD5DD;
+}
+.bg-section-red {
+    background-color: #FACCD6;
+}
+
+.bg-section {
+    background-color: lightyellow;
 }
 
 .hmw-text-1 {
@@ -318,25 +344,7 @@
     color: white;
 }
 
-.bg-section {
-    background-color: lightyellow;
-}
 
-.bg-section-2 {
-    background-color: #FFF5C7;
-}
-
-.bg-section-3 {
-    background-color: #C9F1E8;
-}
-
-.bg-section-4 {
-    background-color: #F7E7D2;
-}
-
-.bg-section-5 {
-    background-color: #DCCFE1;
-}
 
 
 .img-header {
@@ -444,8 +452,8 @@
 .flex-item-tool {
     width: 50px;
     height: 50px;
-    margin: 1rem 2rem 1rem 2rem;
-    margin-left: 0rem;
+    margin: 2rem;
+    
     font-size: 1.5em;
     text-align: center;
 }
@@ -519,4 +527,8 @@
     margin: 1rem .25rem;
     color: black;
     line-height: 3rem;
+}
+
+#tools-page-1st-icon {
+    margin-top: 1rem;
 }
