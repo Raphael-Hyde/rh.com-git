@@ -393,16 +393,21 @@
 /* ////////   demo here: https://codepen.io/team/css-tricks/pen/1ea1ef35d942d0041b0467b4d39888d3*/
 
 .flex-container {
-  padding: 0;
-  margin: 0;
-  list-style: none;
-  -ms-box-orient: horizontal;
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -moz-flex;
-  display: -webkit-flex;
-  display: flex;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    -ms-box-orient: horizontal;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -moz-flex;
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: row;
+    -webkit-align-items: center;
+   align-items: center;
+   -webkit-justify-content: center;
+   justify-content: center;
 }
 
 .nowrap  { 
@@ -451,3 +456,7 @@
 }
 
 
+
+.home-btn {
+    margin: .25rem;
+}
