@@ -513,9 +513,9 @@
 
 
 .tool-tag {
-    background-color: rgb(16,16,16) opacity:0.5;
-    padding: .5rem .75rem .25rem .75rem;
-    border-radius: .25rem;
+    background-color: rgba(16,16,16,0.1);
+    padding: .3rem .5rem .2rem .5rem;
+    border-radius: .5rem;
     margin: .25rem;
     color: black;
 }
