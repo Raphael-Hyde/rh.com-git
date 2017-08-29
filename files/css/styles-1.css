@@ -459,4 +459,17 @@
 
 .home-btn {
     margin: .25rem;
+    margin-bottom: .5rem;
+    background-color: white;
+}
+
+.section-title {
+    font-weight: 800;
+	letter-spacing: 0.2em;
+	text-transform: uppercase;
+    font-family: 'Hind',sans-serif;
+}
+
+.home-cta-2 {
+    background-color: aliceblue;
 }
