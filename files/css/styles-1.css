@@ -257,6 +257,10 @@
     background-color: lightyellow;
 }
 
+.icon-bg-white {
+    background-color: #FFFFFF;
+}
+
 .hmw-text-1 {
     padding-left: .5rem;
     padding-right: .5rem;
@@ -270,7 +274,25 @@
     padding-right: .5rem;
     margin-top: .5rem;
     background-color: yellow;
+    border-radius: 1rem;
+}
+
+.title-text-1 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-bottom: 1rem;
+    margin-top: 1.5rem;
+    background-color: black;
     border-radius: .25rem;
+    line-height: 3rem;
+}
+
+@media only screen and (max-width: 600px) {
+#tools-sub-title {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    margin-top: 1.5rem;
+    }
 }
 
 /*
