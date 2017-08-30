@@ -406,6 +406,11 @@
     font-weight: 500;
 }
 
+.hind-type {
+    font-family: 'Hind',sans-serif;
+    font-weight: 100;
+}
+
 .logo-hover:hover {
         -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
     filter: grayscale(100%);
@@ -483,6 +488,15 @@
     text-align: center;
 }
 
+.flex-item-1 {
+    width: 125px;
+    height: 125px;
+    margin: 10px;
+    margin-left: 0rem;
+    font-size: 1.5em;
+    text-align: center;
+}
+
 .flex-item-tool {
     width: 50px;
     height: 50px;
@@ -513,7 +527,9 @@
 .home-btn {
     margin: .5rem;
     margin-bottom: .5rem;
-    background-color: white;
+    background-color: #D2ECED;
+    border: 2px solid rgba(0,0,0,0.0);
+    width: 200px;
 }
 
 .section-title {

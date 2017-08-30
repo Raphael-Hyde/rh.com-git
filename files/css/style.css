@@ -3175,7 +3175,7 @@ div .column-section:first-child { margin-top: 0px; }
 	letter-spacing: 0.06em;
 	text-transform: uppercase;
 	text-align: center;
-	border: 2px solid rgba(0,0,0,0.12);
+	border: 1px solid rgba(0,0,0,0.05);
 	color: #000000 !important;
 	display: inline-block;
 	padding: 10px 40px;
