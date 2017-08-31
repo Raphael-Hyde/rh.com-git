@@ -588,3 +588,39 @@
 }
 
 
+
+.title-wrapper-bg {
+    background-color: rgba(255,255,255,0.70);
+    width: auto;
+    padding: 2rem;
+    border-radius: 1rem 1rem 0rem 0rem;
+}
+
+@media only screen and (max-width: 600px) {
+    .title-wrapper-bg {
+    background-color: rgba(255,255,255,0.70);
+    width: 600px;
+    border-radius: 0rem;
+    padding: 0rem 1rem;}
+    .proj-sub-title {
+    font-size: 1.5rem;
+        line-height: 1rem;}
+}
+
+@media only screen and (max-width: 1200px) {
+    .title-wrapper-bg {
+    background-color: rgba(255,255,255,0.70);
+    width: 600px;}
+    .proj-sub-title {
+    line-height: 1rem;}
+}
+
+
+
+.letter-spacing-1 {
+    letter-spacing: .1rem;
+}
+
+.proj-sub-title {
+    line-height: 2.5rem;
+}

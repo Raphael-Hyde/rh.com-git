@@ -1377,8 +1377,8 @@ header.text-light.transparent.hero-invisible #logo.logo-centered ~ #header-widge
 
 /* hero pagetitle */
 #hero #page-title {
-	padding-top: 100px;
-	padding-bottom: 100px;
+	padding-top: 50px;
+	padding-bottom: 50px;
 	position: relative;
 	}
 	#hero #page-title:not(.wrapper):not(.wrapper-small) { width: calc(100% - 100px); padding-left: 50px; padding-right: 50px; }
