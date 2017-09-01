@@ -201,7 +201,8 @@
 }
 
 .icon-bg-1:hover {
-    background-color: white;
+    background-color: #4DFFF3;
+    
 }
 
 .icon-yellow {
@@ -623,4 +624,24 @@
 
 .proj-sub-title {
     line-height: 2.5rem;
+}
+
+.ac-logo {
+    width: 250px;
+}
+
+@media only screen and (max-width: 400px) {
+    .ac-logo {
+    width: 100px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .ac-logo {
+    width: 200px;
+    }
+}
+
+.text-800 {
+    font-weight: 800;
 }
