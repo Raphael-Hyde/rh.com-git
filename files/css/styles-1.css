@@ -645,3 +645,7 @@
 .text-800 {
     font-weight: 800;
 }
+
+.justify-left {
+    text-align: left;
+}
