@@ -219,6 +219,10 @@
 
 /* // TOOLS PAGE ICON & SECTION BG COLORS // */
 
+.bg-section-gray {
+    background-color: #F7F7F7;
+}
+
 .icon-bg-yellow {
     background-color: #FFF8DD;
 }
