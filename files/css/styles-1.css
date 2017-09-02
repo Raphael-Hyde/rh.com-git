@@ -202,7 +202,6 @@
 
 .icon-bg-1:hover {
     background-color: #4DFFF3;
-    
 }
 
 .icon-yellow {
@@ -218,7 +217,6 @@
 }
 
 /* // TOOLS PAGE ICON & SECTION BG COLORS // */
-
 
 .section-bg {
     background-color: rgba(255,255,255,0.85);
@@ -363,8 +361,6 @@
     background-color: #b2ffff;
 }
 
-
-
 .fiixed-img {
     position: relative; 
    width: 100%; /* for IE 6 */
@@ -385,7 +381,6 @@
     font-size: 1.5rem;
     font-family: 'Hind', sans-serif;
     font-weight: 100;
-    
 }
 
 #fiixed-header-right {
@@ -399,7 +394,6 @@
     font-family: 'Hind', sans-serif;
     font-weight: 400;
     font-size: 2.5rem;
-    
 }
 
 #fiixed-header-left {
@@ -423,16 +417,12 @@
     color: white;
 }
 
-
-
-
 .img-header {
     position: absolute; 
     top: 200px; 
     left: 0; 
     width: 100%; 
 }
-
 
 .insight-number-max {
     font-size: 8rem;
@@ -444,7 +434,6 @@
     font-size: 3rem;
     vertical-align: bottom;
 }
-
 
 #mediums {
     font-family: 'Hind',sans-serif;
@@ -493,7 +482,6 @@
 
 
 /* FLEX BOX */
-
 /* ////////   demo here: https://codepen.io/team/css-tricks/pen/1ea1ef35d942d0041b0467b4d39888d3*/
 
 .flex-container {
@@ -568,7 +556,6 @@
     margin-top: 10px;
 }
 
-
 .home-btn {
     margin: .5rem;
     margin-bottom: .5rem;
@@ -608,7 +595,7 @@
     font-size: .9rem;
 }
 
-#take-the-plung {
+#take-the-plunge {
     margin-top: 1rem;
 }
 
@@ -641,7 +628,6 @@
 }
 
 
-
 .title-wrapper-bg {
     background-color: rgba(255,255,255,0.70);
     width: auto;
@@ -667,8 +653,6 @@
     .proj-sub-title {
     line-height: 1rem;}
 }
-
-
 
 .letter-spacing-1 {
     letter-spacing: .1rem;
@@ -701,5 +685,3 @@
 .justify-left {
     text-align: left;
 }
-
-
