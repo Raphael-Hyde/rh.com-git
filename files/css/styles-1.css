@@ -226,6 +226,10 @@
     background-color: #F2F2F2;
 }
 
+.bg-section-blk {
+    background-color: #000000;
+}
+
 .icon-bg-yellow {
     background-color: #FFF8DD;
 }
@@ -323,12 +327,15 @@
 /* ///////   @MEDIA STYLES   /////// */
 
 @media only screen and (max-width: 600px) {
-#tools-sub-title {
-    font-family: 'Playfair Display';
+.tools-sub-title {
     font-size: 2rem;
-    padding: .75rem;
-    margin 2rem;
-    }
+    font-family: 'Hind',sans-serif;
+    padding: .4rem 1rem;
+    margin-bottom: 1rem;
+    margin-top: 1.5rem;
+    background-color: black;
+    line-height: 4rem;
+}
 }
 
 .oh-no {
