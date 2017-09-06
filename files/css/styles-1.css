@@ -750,12 +750,14 @@
     
 }
 
+/*
 .eventCard:hover {
     margin: 2rem;
     border-radius: .25rem;
     padding: 2rem;
     box-shadow: 0 0 2px rgba(0, 0, 0, 0.4), 0 2px 2px rgba(0, 0, 0, 0.4); 
 }
+*/
 
 @media only screen and (max-width: 600px) {
     .eventCard, .eventCard:hover {

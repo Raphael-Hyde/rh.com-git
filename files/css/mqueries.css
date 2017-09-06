@@ -180,7 +180,9 @@ blockquote{}
 .fullwidth-section .fullwidth-content{padding:60px 0;}
 .spacer-big{height:60px;}
 #footer .footer-inner{padding:35px 0;}
-.single-title{margin-bottom:35px;}
+.single-title {
+    margin-bottom: 10px;
+    }
 .classic-blog .blog-item{margin-bottom:35px;}
 #blog-single .blog-media{margin-top:35px;}
 #blog-single .blog-content{margin-top:35px;}
