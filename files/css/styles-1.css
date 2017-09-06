@@ -875,3 +875,12 @@
 
 
 
+
+.brief-header-roe {
+    font-family: 'Hind'; 
+    font-weight: 100;
+}
+
+.bottomPadding {
+    padding-bottom: .75rem;
+}
