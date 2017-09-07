@@ -882,3 +882,7 @@
 .bottomPadding {
     padding-bottom: .75rem;
 }
+
+.red-text {
+    color: red;
+}
