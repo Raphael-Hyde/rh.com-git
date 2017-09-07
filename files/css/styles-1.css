@@ -886,3 +886,7 @@
 .red-text {
     color: red;
 }
+
+.text-padding-sm {
+    padding: 0rem .75rem;
+}
