@@ -1,0 +1,47 @@
+/* -----------------------------------------------------------------------------------
+	
+	COLORS
+	___________
+	
+	Added color to some elements
+
+----------------------------------------------------------------------------------- */
+
+.colored,
+a,
+blockquote > p a:hover,
+h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover,
+nav#main-nav ul > li > a:hover, nav#main-nav ul > li.current-menu-item > a,	nav#main-nav ul > li:hover > a,
+.text-light nav#main-nav ul > li > a:hover, .text-light nav#main-nav ul > li.current-menu-item > a,	.text-light nav#main-nav ul > li:hover > a,  
+.filter li a:hover, .filter li.active a,
+.pagination li a:hover,
+.pagination li.back a:hover:after, .pagination li.back a:hover:before, 
+.pagination li.back a:hover .icon:after, .pagination li.back a:hover .icon:before,
+.pagination li a[data-title]:not([data-title='']),
+#page-pagination .pagination li.page a:hover,
+.comments .comment-reply-link, .comments #cancel-comment-reply-link,
+.tabs ul.tab-nav li.active a,
+header.text-light.transparent.menu-is-open[class*='menu-full'] #menu-widget a
+{ color: #d19b4f; }
+
+.sr-button:hover,
+.sr-button-icon:hover { border-color: #d19b4f; }
+
+/* -- SHOP COLORS -- */
+.quantity span:hover::before, .quantity span:hover::after { background-color: #d19b4f; }
+.woocommerce .star-rating span,
+p.stars span:hover a::before, p.stars.selected span:hover a::before, p.stars.selected a::before { color: #d19b4f; }
+.menu-cart a.open-cart:hover .minicart-icon, .menu-cart a.open-cart:hover .minicart-icon::before { opacity: 1; border-color: #d19b4f; }
+
+.menu-cart-content ul.cart_list li .item-name a:hover,
+.menu-cart-content.menu-dark ul.cart_list li .item-name a:hover { color: #d19b4f; }
+
+.menu-cart-content .cart-bottom .buttons .sr-button.style-2 { background: #d19b4f; color: #ffffff !important; }
+.menu-cart-content .cart-bottom .buttons .sr-button.style-2:hover { background: #000000; }
+.menu-cart-content.menu-dark .cart-bottom .buttons .sr-button.style-2 { background: #d19b4f; color: #ffffff !important; }
+.menu-cart-content.menu-dark .cart-bottom .buttons .sr-button.style-2:hover { background: #ffffff; color: #000000 !important; }
+/* -- SHOP COLORS -- */
+
+a:hover,
+header.text-light.transparent.menu-is-open[class*='menu-full'] #menu-widget a:hover { color: #000000; }
+.text-light a:hover { color: #ffffff; }
