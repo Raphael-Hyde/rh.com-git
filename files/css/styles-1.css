@@ -915,3 +915,19 @@
 #raphael {
     
 }
+
+.flex-section {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.bb-img {
+    padding: 10px 5px;
+    margin: 10px;
+    width: auto;
+    background: white;
+}
