@@ -591,9 +591,12 @@
 .home-btn {
     margin: .5rem;
     margin-bottom: .5rem;
-    background-color: rgba(255, 255, 255, 0.73);
     border: 2px solid rgba(0,0,0,0.0);
     width: 200px;
+    color: white;
+    background: #ffffff; 
+    color: #000000 
+    !important;
 }
 
 .back-btn {
@@ -617,6 +620,10 @@
 
 .home-cta-3 {
     background-color: aliceblue;
+}
+
+.home-cta-4 {
+    background-color: black;
 }
 
 .home-icon-text {
