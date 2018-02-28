@@ -39,7 +39,7 @@ p.stars span:hover a::before, p.stars.selected span:hover a::before, p.stars.sel
 .menu-cart-content .cart-bottom .buttons .sr-button.style-2 { background: #d19b4f; color: #ffffff !important; }
 .menu-cart-content .cart-bottom .buttons .sr-button.style-2:hover { background: #000000; }
 .menu-cart-content.menu-dark .cart-bottom .buttons .sr-button.style-2 { background: #d19b4f; color: #ffffff !important; }
-.menu-cart-content.menu-dark .cart-bottom .buttons .sr-button.style-2:hover { background: #ffffff; color: #000000 !important; }
+.menu-cart-content.menu-dark .cart-bottom .buttons .sr-button.style-2:hover { background: #ffffff; color: #000055 !important; }
 /* -- SHOP COLORS -- */
 
 a:hover,
