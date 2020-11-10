@@ -1,0 +1,24 @@
+.p {
+color="red";
+}
+
+h1 {
+    color: #070f21;
+}
+
+.a.hover {
+ background-color: blue;   
+}
+
+.a.active {
+    color: chartreuse;
+}
+
+#about .help {
+    color: blanchedalmond;
+}
+
+.box {
+    width: 100%;
+    height: inherit;
+}
